@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .house-card {
+            display: flex;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .house-card img {
+            width: 200px;
+            height: auto;
+            object-fit: cover;
+        }
+        .house-details {
+            padding: 20px;
+            flex: 1;
+        }
+        .house-details h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .house-details p {
+            margin: 5px 0;
+        }
+        .house-details button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .house-details button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Available Houses for Rent</h2>
+
+    <!-- House Card 1 -->
+    <div class="house-card">
+        <img src="https://via.placeholder.com/200" alt="House Picture">
+        <div class="house-details">
+            <h3>Cozy Apartment</h3>
+            <p><strong>Location:</strong> Downtown</p>
+            <p><strong>Details:</strong> 2 BHK, Fully Furnished, Nearby Metro</p>
+            <p><strong>Rent:</strong> $1200/month</p>
+            <button onclick="alert('Rent request sent for Cozy Apartment')">Rent Now</button>
+        </div>
+    </div>
+
+    <!-- House Card 2 -->
+    <div class="house-card">
+        <img src="https://via.placeholder.com/200" alt="House Picture">
+        <div class="house-details">
+            <h3>Spacious Villa</h3>
+            <p><strong>Location:</strong> Suburbs</p>
+            <p><strong>Details:</strong> 4 BHK, Garden, Garage</p>
+            <p><strong>Rent:</strong> $2500/month</p>
+            <button onclick="alert('Rent request sent for Spacious Villa')">Rent Now</button>
+        </div>
+    </div>
+
+    <!-- House Card 3 -->
+    <div class="house-card">
+        <img src="https://via.placeholder.com/200" alt="House Picture">
+        <div class="house-details">
+            <h3>Modern Studio</h3>
+            <p><strong>Location:</strong> City Center</p>
+            <p><strong>Details:</strong> 1 BHK, Fully Furnished</p>
+            <p><strong>Rent:</strong> $800/month</p>
+            <button onclick="alert('Rent request sent for Modern Studio')">Rent Now</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
